@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.blog-box {
+  width: 960px;
+  margin: 50px auto;
+  justify-content: center;
+  display: flex;
+}
+
+.blog-item {
+  width: 300px;
+  padding: 10px;
+  background-color: #eeeeee;
+  margin-right: 30px;
+  position: relative;
+}
+
+.blog-item:last-child {
+  margin-right: 0;
+}
+
+.blog-image1 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.blog-image2 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.blog-image3 {
+  width: 280px;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step {
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: #ff9a4b;
+}
+
+.title {
+  margin: 15px 0 5px;
+}
+
+.text {
+  color: #666666;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+/* タブレット横置き */
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .blog-box {
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+  }
+
+  .blog-item {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+
+  .blog-item:last-child {
+    margin: 0 auto;
+  }
+
+  .blog-image1 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .blog-image2 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .blog-image3 {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+/* スマートフォン */
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .blog-box {
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+  }
+
+  .blog-item {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+
+  .blog-item:last-child {
+    margin: 0 auto;
+  }
+
+  .blog-image1 {
+    height: 150px;
+    width: 100%;
+  }
+
+  .blog-image2 {
+    height: 150px;
+    width: 100%;
+  }
+
+  .blog-image3 {
+    height: 150px;
+    width: 100%;
+  }
+}
